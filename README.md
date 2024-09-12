@@ -5,11 +5,11 @@ The GitHub Profile Analyzer is a web application that fetches and displays GitHu
 # Project Title: GitHub Analyzer
 
 # Project Details
-Project URL :https://githubanalyzer-aqf3bjgwcrddgpg3.southindia-01.azurewebsites.net/
+Project URL : https://githubanalyzer-aqf3bjgwcrddgpg3.southindia-01.azurewebsites.net/
 
 Demo Video URL:
 
-GitHub Repository URL:https://github.com/salonimore1234/Github_Analyzer/tree/master
+GitHub Repository URL: https://github.com/salonimore1234/Github_Analyzer/tree/master
 
 # Problem Statement
 With the increasing use of GitHub by developers and organizations, it can be time-consuming to manually explore and analyze individual user profiles and repositories to understand a developer's impact or code contributions. GitHub’s vast data needs a quick and efficient way to retrieve and present a user’s profile information and repository statistics in a clear and accessible format.
@@ -37,15 +37,16 @@ The GitHub Profile Analyzer aims to solve this by providing a simple tool that a
   Time Efficiency: Quickly retrieves and summarizes important profile information and repository metrics in real-time.
 
 # Project Description
+
 The GitHub Profile Analyzer is a web-based application designed to fetch and display a GitHub user's profile information and repository statistics. By leveraging the GitHub API, the tool provides an efficient way to access critical data points about any user's public repositories, followers, and other relevant metrics.
 
 Key Features:
   
-  1. User Profile Analysis:
+1. User Profile Analysis:
     
-   Retrieves and displays basic GitHub profile information including:
+Retrieves and displays basic GitHub profile information including:
   
-   1.Username and display name.
+ 1.Username and display name.
     
    2.Number of followers and following.
    
@@ -65,11 +66,11 @@ Key Features:
    
    4.Number of open issues (showing ongoing work or unresolved issues).
  
-  3.User Input Form:
+3.User Input Form:
 
-  1.A simple form that allows users to enter a GitHub username to trigger profile retrieval.
+   1.A simple form that allows users to enter a GitHub username to trigger profile retrieval.
   
-  2.Error handling for invalid usernames or missing data.
+   2.Error handling for invalid usernames or missing data.
 
 4.User-Friendly Interface:
 
@@ -85,7 +86,7 @@ Key Features:
 
    3.GitHub API: Used to fetch user profile and repository details in real-time.
 
-  4.Deployment: Hosted on Azure App Service, ensuring reliability and accessibility.
+   4.Deployment: Hosted on Azure App Service, ensuring reliability and accessibility.
 
 Use Cases:
 
@@ -102,17 +103,30 @@ The primary goal of this project is to offer a fast, intuitive way to analyze Gi
 
 # Azure Service Used:
 1. Azure App Service:
+   
 Deployed the front-end (html,css) for user interaction & backend.used Azure App Service to host and manage the deployment of the GitHub Profile Analyzer. This service ensures that your web application is always available and scalable without needing to manage infrastructure.
 
 3. Azure MySQL Database:
+   
 It is used for creating MySQL database to storing and managing students data.
 
 # Screenshots
 
 1. Azure MySQL Database
+   
    It is used for creating MySQL database to storing and managing students data.
    
-![2024-09-12 (5)](https://github.com/user-attachments/assets/72bd7736-5e2e-49f1-9ac9-67ecbcb53cdf)
+
+   ![2024-09-12 (5)](https://github.com/user-attachments/assets/72bd7736-5e2e-49f1-9ac9-67ecbcb53cdf)
+
+
+3. Azure App Service
+
+    Azure App Service to host and manage the deployment of the GitHub Profile Analyzer. This service ensures that your web application is always available and scalable without needing to manage 
+     infrastructure.
+   
+   ![2024-09-12 (6)](https://github.com/user-attachments/assets/f5dfd6d7-84ca-4233-aa13-ecd32f2b503e)
+
 
 # Working Live Project Display
 
@@ -120,6 +134,14 @@ It is used for creating MySQL database to storing and managing students data.
 
  ![2024-09-12 (9)](https://github.com/user-attachments/assets/8f58e8c0-e158-4954-8b5c-55f9ee1f1136)
 
+
+ ![2024-09-12 (11)](https://github.com/user-attachments/assets/ac8cc8a3-0b9e-4b57-90b3-12a145ec7022)
+
+
+ # Final Statement
+
+   The process of analyzing GitHub user profiles by fetching real-time data using the GitHub API. The application provides a clear summary of profile details, including followers, public repositories, and repository-specific statistics such as stars, forks, and open issues. Hosted on Azure App Service, the project takes advantage of Azure's cloud infrastructure for reliable performance and easy deployment. This tool is designed to help users quickly access and evaluate GitHub profiles with minimal effort, making it useful for developers, recruiters, and tech enthusiasts alike. 
+
+
  
 
- ![2024-09-12 (6)](https://github.com/user-attachments/assets/065b7003-a4f2-49ab-a7e1-1b6c7b053b9e)
