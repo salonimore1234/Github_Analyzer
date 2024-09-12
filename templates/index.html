@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Profile Analyzer</h1>
+        <form method="POST" action="/">
+            <input type="text" name="username" placeholder="Enter GitHub Username" required>
+            <button type="submit">Get Profile</button>
+        </form>
+
+        {% if profile %}
+        <div class="profile-info">
+            <h2>{{ profile['login'] }} ({{ profile['name'] }})</h2>
+            <p>Followers: {{ profile['followers'] }} | Following: {{ profile['following'] }}</p>
+            <p>Public Repositories: {{ profile['public_repos'] }}</p>
+            <p>Profile URL: <a href="{{ profile['html_url'] }}" target="_blank">{{ profile['html_url'] }}</a></p>
+        </div>
+
+        <div class="repo-list">
+            <h3>Repositories</h3>
+            <table>
+                <tr>
+                    <th>Repository Name</th>
+                    <th>Stars</th>
+                    <th>Forks</th>
+                    <th>Open Issues</th>
+                </tr>
+                {% for repo in repos %}
+                <tr>
+                    <td><a href="{{ repo['html_url'] }}" target="_blank">{{ repo['name'] }}</a></td>
+                    <td>{{ repo['stargazers_count'] }}</td>
+                    <td>{{ repo['forks_count'] }}</td>
+                    <td>{{ repo['open_issues_count'] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
