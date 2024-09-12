@@ -7,7 +7,7 @@ The GitHub Profile Analyzer is a web application that fetches and displays GitHu
 # Project Details
 Project URL : https://githubanalyzer-aqf3bjgwcrddgpg3.southindia-01.azurewebsites.net/
 
-Demo Video URL:
+Demo Video URL: Uploadvideo
 
 GitHub Repository URL: https://github.com/salonimore1234/Github_Analyzer/tree/master
 
