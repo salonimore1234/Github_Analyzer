@@ -3,9 +3,12 @@
 The GitHub Profile Analyzer is a web application that fetches and displays GitHub profile information and repository details for a given username. Users can enter a GitHub username, and the application will retrieve and show details such as the number of followers, following, public repositories, and the list of repositories along with their stars, forks, and open issues.
 
 # Project Title: GitHub Analyzer
+
 # Project Details
 Project URL :https://githubanalyzer-aqf3bjgwcrddgpg3.southindia-01.azurewebsites.net/
+
 Demo Video URL:
+
 GitHub Repository URL:https://github.com/salonimore1234/Github_Analyzer/tree/master
 
 # Azure Service Used:
