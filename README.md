@@ -7,7 +7,7 @@ The GitHub Profile Analyzer is a web application that fetches and displays GitHu
 # Project Details
 Project URL : https://githubanalyzer-aqf3bjgwcrddgpg3.southindia-01.azurewebsites.net/
 
-Demo Video URL: Uploadvideo
+Demo Video URL: https://drive.google.com/file/d/1MHnuZ47lwImdCijrFmvPZY1wdW57Ffev/view?usp=drivesdk 
 
 GitHub Repository URL: https://github.com/salonimore1234/Github_Analyzer/tree/master
 
@@ -106,7 +106,7 @@ The primary goal of this project is to offer a fast, intuitive way to analyze Gi
    
 Deployed the front-end (html,css) for user interaction & backend.used Azure App Service to host and manage the deployment of the GitHub Profile Analyzer. This service ensures that your web application is always available and scalable without needing to manage infrastructure.
 
-3. Azure MySQL Database:
+2. Azure MySQL Database:
    
 It is used for creating MySQL database to storing and managing students data.
 
