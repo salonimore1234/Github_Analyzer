@@ -131,8 +131,11 @@ It is used for creating MySQL database to storing and managing students data.
 # Working Live Project Display
 
  ![2024-09-12 (7)](https://github.com/user-attachments/assets/0ee6e585-feca-4f95-8d10-6a385ad7f26e)
+ 
+
 
  ![2024-09-12 (9)](https://github.com/user-attachments/assets/8f58e8c0-e158-4954-8b5c-55f9ee1f1136)
+ 
 
 
  ![2024-09-12 (11)](https://github.com/user-attachments/assets/ac8cc8a3-0b9e-4b57-90b3-12a145ec7022)
